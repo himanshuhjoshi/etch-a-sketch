@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    color: white;
+}
+
+h1 {
+    margin: 2rem;
+}
+
+button {
+    padding: 1rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    background-color: gray;
+    color: white;
+    cursor: pointer;
+    border: 1px solid white;
+}
+
+.container {
+    height: 350px;
+    width: 350px;
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.grid-box {
+    background-color: white;
+}
+
+.grid-box-hover {
+    background-color: black;
+    opacity: 0.1;
+}
